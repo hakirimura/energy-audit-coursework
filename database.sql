@@ -48,8 +48,8 @@ INSERT INTO enerhoaudyt (obiekt_id, data_provedennia, auditor, vysnovok) VALUES
 (2, '2026-09-15', 'Петренко П.П.', 'Задовільний стан, але є проблеми з освітленням.');
 
 INSERT INTO zakhid (enerhoaudyt_id, nazva, vartist, potentsial_ekonomii, termin_okupnosti, potentsial_skorochennia_vykydiv, stan) VALUES 
-(1, 'Заміна вікон на енергоефективні', 50000.0, 80.0, 24.0, 70.0, 'ЗАПРОПОНОВАНО'),
-(1, 'Утеплення фасаду', 120000.0, 90.0, 36.0, 85.0, 'СХВАЛЕНО');
+(1, 'Заміна вікон на енергоефективні', 50000.0, 80.0, 24.0, 70.0, 'ZAPROPONOVANO'),
+(1, 'Утеплення фасаду', 120000.0, 90.0, 36.0, 85.0, 'SKHVALENO');
 
 INSERT INTO zapys_spozhyvannia (obiekt_id, data_zapysu, spozhyvannia_kvt_hod, vartist_hryvnia) VALUES 
 (1, '2026-08-01', 15000.5, 45000.0),
